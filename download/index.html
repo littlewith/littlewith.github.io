@@ -1,0 +1,24 @@
+
+<h1>这边是文章中所有的插件的下载页面</h1>
+<div id="timearea" style="width: 645px; height:68px;background-color: burlywood;font-size: 25px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">现在几点了:</div>
+<p><strong>这是文件的下载页面</strong></p><hr>
+
+<p><strong>2022-8-31--BingWallpaper.exe</strong></p>
+<a href="https://littlewith.github.io/download/BingWallpaper.exe">点击下载</a>
+<hr>
+
+<p><strong>2022-9-29--iNuist-Login_mini</strong></p>
+<a href="https://littlewith.github.io/download/iNuist-Login_mini.7z">点击下载</a>
+<hr>
+<p><strong>随着博客的更新，会更新对应的下载地址</strong></p>
+
+<script type="text/javascript">
+	var timearea = document.getElementById("timearea");
+	function pri_time(){
+		var date = new Date();
+		timearea.innerText="现在几点了: "+'\n'+date;
+	}
+	var timer = window.setInterval("pri_time()",1000);
+
+</script>
+
